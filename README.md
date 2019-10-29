@@ -15,4 +15,4 @@ _Pre-installation:_
 1. `npm install discord.js`  
 2. `npm install weather-js` 
 3. `npm install random-puppy`  
-4.`npm install ascii-art`
+4. `npm install ascii-art`
