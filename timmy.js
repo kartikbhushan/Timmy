@@ -1,9 +1,9 @@
 const Discord=require('discord.js');
 const client= new Discord.Client()
 const weather=require('weather-js');
-const prefix = '!';
 const randomPuppy = require('random-puppy');
 const ascii = require('ascii-art');
+const prefix = '!';
 
 client.on('ready', () => {
     console.log("Connected as " + client.user.tag);
@@ -15,11 +15,11 @@ client.on('ready', () => {
         guild.channels.forEach((channel) => {
             console.log(` - ${channel.name} ${channel.type} ${channel.id} `);
         })
-        //General Channel id = 638644334312554499
+        //General Channel id = Id from terminal 
     })
-    let generalChannel= client.channels.get("638644334312554499");
+    let generalChannel= client.channels.get("paste id from terminal");
     const attachment= new Discord.Attachment("https://media.sproutsocial.com/uploads/2018/03/The-Complete-Guide-to-Chatbots-b605987a-a012-4ed4-a490-14ad11f88ac5.png")
-    generalChannel.send("Hi there");
+    generalChannel.send("Hi there ,I am Timmy ");
     generalChannel.send(attachment);
 })
 
@@ -218,4 +218,4 @@ function weatherCommand(arguments,receivedMessage){
     });
 }
 
-client.login("NjM4NjQ0NzQ2Nzg0MzQyMDE3.XbfvSA.JAa78MTJ1aaDR4anhGtdafOoFp0");
+client.login("<login token of your bot>");
