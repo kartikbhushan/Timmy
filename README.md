@@ -10,13 +10,9 @@ _The commands available are: (default names)_
 * `!ascii <String of text >`: Print entered string in Ascii format.  
 
 # Installation
-*  
+
 _Pre-installation:_  
 1. `npm install discord.js`  
-It is recommended to have the stable branch.  
-
 2. `npm install weather-js` 
-
 3. `npm install random-puppy`  
-
 4.`npm install ascii-art`
